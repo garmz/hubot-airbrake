@@ -1,0 +1,27 @@
+{
+    "name": "hubot-airbrake"
+  , "version": "0.0.1"
+  , "description": "Hubot Airbrake script"
+  , "keywords": ["hubot", "airbrake"]
+  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "dependencies": {
+      "hubot": "2.1.4"
+  }
+  , "devDependencies": {
+      "mocha": "0.3.3"
+    , "chai": "*"
+    , "jack": "*"
+  }
+  , "repository" : {
+      "type" : "git"
+    , "url" : "http://github.com/garmz/hubot-airbrake.git"
+  }
+  , "homepage": "http://github.com/garmz/hubot-airbrake"
+  , "scripts": {
+      "test": "make test"
+  }
+  , "main": "./lib/cli"
+  , "engines": {
+      "node": ">= 0.6.0"
+  }
+}
