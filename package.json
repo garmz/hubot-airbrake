@@ -3,7 +3,7 @@
   , "version": "0.0.1"
   , "description": "Hubot Airbrake script"
   , "keywords": ["hubot", "airbrake"]
-  , "author": "Veselin Todorov <hi@vesln.com>"
+  , "author": "LOOKK <dev@lookk.com>"
   , "dependencies": {
       "hubot": "2.1.4"
   }
