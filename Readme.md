@@ -14,11 +14,13 @@ $ npm install hubot-airbrake
 
 You have to set the following env variables:
 
+```
 AIRBRAKE_PROJECT - your project name
 
 AIRBRAKE_AUTH_TOKEN - auth token for airbrake
 
-AIRBRAKE_INTERVAL - set if you want Hubot to automatically notify you for exceptions, set this to the desiered interval in ms
+AIRBRAKE_INTERVAL - set this if you want Hubot to notify you about the unresolved errors (in ms)
+```
 
 After that you have to put the script in the `scripts/` directory of your Hubot.
 
