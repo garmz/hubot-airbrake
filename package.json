@@ -4,9 +4,13 @@
   , "description": "Hubot Airbrake script"
   , "keywords": ["hubot", "airbrake"]
   , "author": "LOOKK <dev@lookk.com>"
+  , "dependencies": {
+      "request": "2.9.x",
+      "xml2json": "0.2.4"
+  }
   , "devDependencies": {
-      "hubot": "2.1.4",
-      "mocha": "0.3.3"
+      "hubot": "2.1.x",
+      "mocha": "0.3.x"
     , "chai": "*"
     , "jack": "*"
   }
@@ -18,7 +22,7 @@
   , "scripts": {
       "test": "make test"
   }
-  , "main": "./lib/scripts/hubot-aribrake"
+  , "main": "./lib/hubot-aribrake"
   , "engines": {
       "node": ">= 0.6.0"
   }
