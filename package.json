@@ -1,6 +1,6 @@
 {
     "name": "hubot-airbrake"
-  , "version": "0.0.1"
+  , "version": "0.0.0"
   , "description": "Hubot Airbrake script"
   , "keywords": ["hubot", "airbrake"]
   , "author": "LOOKK <dev@lookk.com>"
