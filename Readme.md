@@ -26,6 +26,12 @@ After that you have to put the script in the `scripts/` directory of your Hubot.
 
 Restart Hubot and you are ready to go.
 
+If you want to see the unresolved errors just type:
+
+```
+Hubot show me airbrake
+```
+
 ## Tests
 
 The tests are powered by [Chai](http://chaijs.com). Running tests is simple:
