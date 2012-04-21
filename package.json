@@ -4,10 +4,8 @@
   , "description": "Hubot Airbrake script"
   , "keywords": ["hubot", "airbrake"]
   , "author": "LOOKK <dev@lookk.com>"
-  , "dependencies": {
-      "hubot": "2.1.4"
-  }
   , "devDependencies": {
+      "hubot": "2.1.4",
       "mocha": "0.3.3"
     , "chai": "*"
     , "jack": "*"
